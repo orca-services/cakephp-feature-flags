@@ -7,6 +7,7 @@ This plugin can be used to enable or disable specific features in your code. Thi
 ## Requirements
 
 * PHP 7.0+
+* CakePHP 3.x
 
 ## Installation
 
@@ -14,10 +15,14 @@ You can install this plugin into your CakePHP application using [composer](https
 
 The recommended way to install composer packages is:
 
+```
+composer require orca-services/cakephp-feature-flags
+```
+
+## Contributing
+
 ## Change log
 
 Please see [CHANGELOG](CHANGELOG.md) for more information on what has changed recently.
 
-```
-composer require orca-services/cakephp-feature-flags
-```
+## TODOs
