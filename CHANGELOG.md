@@ -6,8 +6,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased](https://github.com/orca-services/cakephp-feature-flags/compare/<last_release_name>...cakephp-3.x)
 ### Added
-- Added project ot GitHub
-- Added changelog
+- Added project ot GitHub #1 
+- Added changelog #4
 
 ### Changed
 
