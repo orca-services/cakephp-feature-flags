@@ -26,3 +26,7 @@ composer require orca-services/cakephp-feature-flags
 Please see [CHANGELOG](CHANGELOG.md) for more information on what has changed recently.
 
 ## TODOs
+
+## License
+
+This plugin is licensed under the [MIT License](LICENSE).
