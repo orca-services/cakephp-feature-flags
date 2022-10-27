@@ -1,4 +1,4 @@
-# Feature Flags plugin for CakePHP
+# Feature Flags Plugin for CakePHP
 
 ## Description
 
