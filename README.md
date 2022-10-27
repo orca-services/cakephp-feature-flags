@@ -25,6 +25,8 @@ composer require orca-services/cakephp-feature-flags
 
 ## Contributing
 
+See [CONTRIBUTING.md](.github/CONTRIBUTING.md)
+
 ## Change log
 
 Please see [CHANGELOG](CHANGELOG.md) for more information on what has changed recently.
