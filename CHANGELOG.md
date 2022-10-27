@@ -9,6 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Added project ot GitHub #1 
 - Added changelog #4
 - Added MIT as license for the project #5
+- Added security guide to the project #12
 
 ### Changed
 - Extend the README.md file #2 
