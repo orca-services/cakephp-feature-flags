@@ -9,6 +9,10 @@ This plugin can be used to enable or disable specific features in your code. Thi
 * PHP 7.0+
 * CakePHP 3.x
 
+## Security
+
+If you’ve found a security issue in CakePHP, please use the procedure described in [SECURITY.md](.github/SECURITY.md)
+
 ## Installation
 
 You can install this plugin into your CakePHP application using [composer](https://getcomposer.org).
