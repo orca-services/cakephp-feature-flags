@@ -6,14 +6,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased](https://github.com/orca-services/cakephp-feature-flags/compare/<last_release_name>...cakephp-3.x)
 ### Added
-- Added project ot GitHub #1 
-- Added changelog #4
-- Added MIT as license for the project #5
-- Added contributing file #3
-- Added security guide to the project #12
 
 ### Changed
-- Extend the README.md file #2 
+- Extend the README.md file #2
 
 ### Deprecated
 
@@ -22,3 +17,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Fixed
 
 ### Security
+
+## [0.1.0](https://github.com/orca-services/cakephp-feature-flags/tags/0.1.0)
+### Added
+- Added project ot GitHub #1 
+- Added changelog #4
+- Added MIT as license for the project #5
+- Added contributing file #3
+- Added security guide to the project #12
+
+### Changed
+- Extend the README.md file #2 
