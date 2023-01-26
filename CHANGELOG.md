@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 - Extend the README.md file #2
 - Update PHP version to 7.1.x
+- Update PHP version to 7.2.x
 
 ### Deprecated
 
