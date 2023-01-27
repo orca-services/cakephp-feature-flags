@@ -29,12 +29,12 @@ class FeatureTest extends TestCase
         $this->assertFalse($featureState->isEnabled());
 
         // Test enabled feature flag
-        Configure::write('App.features.Foo', true);
+        Configure::write('Features.Foo', true);
         $featureState = Feature::name('Foo');
         $this->assertTrue($featureState->isEnabled());
 
         // Test enabled feature flag
-        Configure::write('App.features.Foo', false);
+        Configure::write('Features.Foo', false);
         $featureState = Feature::name('Foo');
         $this->assertFalse($featureState->isEnabled());
     }
