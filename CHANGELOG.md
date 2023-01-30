@@ -8,7 +8,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 
 ### Changed
-- Correct minimum CakePHP requirement
 
 ### Deprecated
 
@@ -17,6 +16,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Fixed
 
 ### Security
+
+## [1.0.1](https://github.com/orca-services/cakephp-feature-flags/tags/1.0.1)
+### Changed
+- Correct minimum CakePHP requirement
 
 ## [1.0.0](https://github.com/orca-services/cakephp-feature-flags/tags/1.0.0)
 ### Changed
