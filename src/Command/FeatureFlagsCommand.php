@@ -23,7 +23,7 @@ class FeatureFlagsCommand extends Command
      * @return \Cake\Console\ConsoleOptionParser The built parser.
      * @todo Cover by a test.
      */
-    public function buildOptionParser(ConsoleOptionParser $parser)
+    public function buildOptionParser(ConsoleOptionParser $parser): ConsoleOptionParser
     {
         $parser = parent::buildOptionParser($parser);
 
