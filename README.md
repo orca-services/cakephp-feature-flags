@@ -7,7 +7,7 @@ This plugin can be used to enable or disable specific features in your code. Thi
 ## Requirements
 
 * PHP 7.0+
-* CakePHP 3.x
+* CakePHP 4.x
 
 ## Security
 
