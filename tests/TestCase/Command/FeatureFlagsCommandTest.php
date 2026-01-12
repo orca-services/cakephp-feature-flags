@@ -1,7 +1,6 @@
 <?php
 namespace FeatureFlags\Test\TestCase\Command;
 
-use Cake\TestSuite\ConsoleIntegrationTestTrait;
 use Cake\TestSuite\TestCase;
 
 /**
@@ -9,8 +8,6 @@ use Cake\TestSuite\TestCase;
  */
 class FeatureFlagsCommandTest extends TestCase
 {
-    use ConsoleIntegrationTestTrait;
-
     /**
      * setUp method
      *
@@ -19,7 +16,6 @@ class FeatureFlagsCommandTest extends TestCase
     public function setUp(): void
     {
         parent::setUp();
-        $this->useCommandRunner();
     }
 
     /**
