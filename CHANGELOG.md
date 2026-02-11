@@ -16,6 +16,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Fixed
 
 ### Security
+- phpunit/phpunit updated from 8.5.32 to 8.5.52 patch (CVE-2026-24765)
 
 ## [1.0.1](https://github.com/orca-services/cakephp-feature-flags/tags/1.0.1)
 ### Changed
