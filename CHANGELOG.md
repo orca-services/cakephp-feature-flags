@@ -8,12 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased](https://github.com/orca-services/cakephp-feature-flags/compare/<last_release_name>...cakephp-3.x)
 
 ### Added
-- Add .gitignore #11
-- Add .editorconfig #14
-- Add .gitattributes #15
-- Add Usage documentation #10
-- Add Configuration documentation #9
-- Add CakePHP CodeSniffer 4.x as dev dependency #18
+- Add .gitignore [#11](https://github.com/orca-services/cakephp-feature-flags/issues/11)
+- Add .editorconfig [#14](https://github.com/orca-services/cakephp-feature-flags/issues/14)
+- Add .gitattributes [#15](https://github.com/orca-services/cakephp-feature-flags/issues/15)
+- Add Usage documentation [#10](https://github.com/orca-services/cakephp-feature-flags/issues/10)
+- Add Configuration documentation [#9](https://github.com/orca-services/cakephp-feature-flags/issues/9)
+- Add CakePHP CodeSniffer 4.x as dev dependency [#18](https://github.com/orca-services/cakephp-feature-flags/issues/18)
 
 ### Changed
 - Bump the minimum PHP version to 7.4
@@ -29,7 +29,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Dependencies Updated
 - cakephp/cakephp updated from 4.3.11 to 4.6.3 minor
-- cakephp/cakephp-codesniffer installed in version 4.7.1 #18
+- cakephp/cakephp-codesniffer installed in version 4.7.1 [#18](https://github.com/orca-services/cakephp-feature-flags/issues/18)
 
 ## [1.0.2](https://github.com/orca-services/cakephp-feature-flags/tags/1.0.2)
 
