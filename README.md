@@ -1,37 +1,50 @@
 # Feature Flags Plugin for CakePHP
 
-## Description
+This plugin can be used to enable or disable specific features in your code. This is very useful when you deploy your
+code to a production environment, but you want to make sure that some features are only available at a later date and
+time.
 
-This plugin can be used to enable or disable specific features in your code. This is very useful when you deploy your code to a production environment but you want to make sure that some features are only available at a later date and time.
+## Compatibility
 
-## Requirements
+| Plugin Version | CakePHP Compatibility | Branch      | Status    |
+|----------------|-----------------------|-------------|-----------|
+| 2.x            | 5.x                   | cakephp-5.x | Supported |
+| 1.x            | 4.x                   | cakephp-4.x | Supported |
+| 0.x            | 3.x                   | cakephp-3.x | EOL       |
 
-* PHP 7.0+
-* CakePHP 4.x
+Note:
 
-## Security
-
-If you’ve found a security issue in CakePHP, please use the procedure described in [SECURITY.md](.github/SECURITY.md)
+- There is no plugin version for CakePHP 2.x.
+- Previous versions of the plugin that supported previous versions of CakePHP are not supported anymore.
 
 ## Installation
 
-You can install this plugin into your CakePHP application using [composer](https://getcomposer.org).
+See the [installation documentation](docs/Installation.md).
 
-The recommended way to install composer packages is:
+## Configuration
 
-```
-composer require orca-services/cakephp-feature-flags
-```
+See the [configuration documentation](docs/Configuration.md).
+
+## How to use
+
+You can use the plugin as shown in [usage documentation](docs/Usage.md).
+
+## Versioning
+
+The releases of this plugin are versioned using [SemVer](http://semver.org/).
 
 ## Contributing
 
 See [CONTRIBUTING.md](.github/CONTRIBUTING.md)
 
-## Change log
+## Changelog
 
-Please see [CHANGELOG](CHANGELOG.md) for more information on what has changed recently.
+See [CHANGELOG.md](CHANGELOG.md)
 
-## TODOs
+## Security
+
+If you've found a security vulnerability, please follow the procedure
+described in [SECURITY.md](.github/SECURITY.md).
 
 ## License
 
