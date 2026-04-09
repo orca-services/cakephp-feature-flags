@@ -3,29 +3,27 @@
     colors="true"
     processIsolation="false"
     stopOnFailure="false"
-    bootstrap="tests/bootstrap.php"
-    >
+    bootstrap="./tests/bootstrap.php"
+>
     <php>
         <ini name="memory_limit" value="-1"/>
         <ini name="apc.enable_cli" value="1"/>
     </php>
 
-    <!-- Add any additional test suites you want to run here -->
-    <testsuites>
-        <testsuite name="FeatureFlags">
-            <directory>tests/TestCase/</directory>
-        </testsuite>
-    </testsuites>
-
-    <!-- Setup an extension for fixtures -->
     <extensions>
         <extension class="\Cake\TestSuite\Fixture\PHPUnitExtension" />
     </extensions>
 
+    <!-- Add any additional test suites you want to run here -->
+    <testsuites>
+        <testsuite name="FeatureFlags">
+            <directory>./tests/TestCase</directory>
+        </testsuite>
+    </testsuites>
+
     <filter>
-        <whitelist>
-            <directory suffix=".php">src/</directory>
+        <whitelist processUncoveredFilesFromWhitelist="false">
+            <directory suffix=".php">src</directory>
         </whitelist>
     </filter>
-
 </phpunit>
