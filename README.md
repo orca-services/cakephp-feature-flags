@@ -21,6 +21,10 @@ Note:
 
 See the [installation documentation](docs/Installation.md).
 
+## Configuration
+
+See the [configuration documentation](docs/Configuration.md).
+
 ## How to use
 
 You can use the plugin as shown in [usage documentation](docs/Usage.md).
