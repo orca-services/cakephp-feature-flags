@@ -37,9 +37,11 @@ if (Feature::name('NewCheckout')->isEnabled()) {
 **Template:**
 
 ```php
-<?php if (Feature::name('BetaDashboard')->isEnabled()): ?>
-    <?= $this->element('dashboard/beta') ?>
-<?php endif; ?>
+<?php
+if (Feature::name('BetaDashboard')->isEnabled()):
+    echo $this->element('dashboard/beta')
+endif;
+?>
 ```
 
 **Routes:**
