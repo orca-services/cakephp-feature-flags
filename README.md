@@ -2,11 +2,13 @@
 
 ## Description
 
-This plugin can be used to enable or disable specific features in your code. This is very useful when you deploy your code to a production environment but you want to make sure that some features are only available at a later date and time.
+This plugin can be used to enable or disable specific features in your code. This is very useful when you deploy your
+code to a production environment, but you want to make sure that some features are only available at a later date and
+time.
 
 ## Requirements
 
-* PHP 7.0+
+* PHP 7.2+
 * CakePHP 4.x
 
 ## Security
@@ -30,8 +32,6 @@ See [CONTRIBUTING.md](.github/CONTRIBUTING.md)
 ## Change log
 
 Please see [CHANGELOG](CHANGELOG.md) for more information on what has changed recently.
-
-## TODOs
 
 ## License
 
