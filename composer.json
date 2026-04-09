@@ -8,6 +8,7 @@
         "cakephp/cakephp": "^4.4"
     },
     "require-dev": {
+        "cakephp/cakephp-codesniffer": "^4.0",
         "phpunit/phpunit": "^8.5"
     },
     "autoload": {
@@ -26,6 +27,9 @@
             "ignore": {
                 "GHSA-xv3h-4844-9h36": "Known CakePHP dependency issue."
             }
+        },
+        "allow-plugins": {
+            "dealerdirect/phpcodesniffer-composer-installer": true
         }
     }
 }
