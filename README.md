@@ -8,7 +8,7 @@ time.
 
 ## Requirements
 
-* PHP 7.2+
+* PHP >= 7.4
 * CakePHP 4.x
 
 ## Security
