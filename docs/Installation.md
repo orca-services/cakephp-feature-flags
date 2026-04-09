@@ -2,12 +2,12 @@
 
 ### Requirements
 
-- PHP >= 7.4
-- CakePHP 4.x
+- PHP >= 8.2
+- CakePHP 5.x
 
 ### CakePHP Version Support
 
-This version of the plugin supports CakePHP 4.x only.
+This version of the plugin supports CakePHP 5.x only.
 
 ### Installation via composer
 

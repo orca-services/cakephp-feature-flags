@@ -13,11 +13,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Add .gitattributes [#15](https://github.com/orca-services/cakephp-feature-flags/issues/15)
 - Add Usage documentation [#10](https://github.com/orca-services/cakephp-feature-flags/issues/10)
 - Add Configuration documentation [#9](https://github.com/orca-services/cakephp-feature-flags/issues/9)
-- Add CakePHP CodeSniffer 4.x as dev dependency [#18](https://github.com/orca-services/cakephp-feature-flags/issues/18)
+- Add CakePHP CodeSniffer 5.x as dev dependency [#18](https://github.com/orca-services/cakephp-feature-flags/issues/18)
 
 ### Changed
-- Bump the minimum PHP version to 7.4
-- Bump the minimum CakePHP version to 4.4
+- Bump the minimum PHP version to 8.2
+- Bump the minimum CakePHP version to 5.0
 
 ### Deprecated
 
@@ -26,17 +26,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Fixed
 
 ### Security
-- phpunit/phpunit updated from 8.5.32 to 8.5.52 patch (CVE-2026-24765)
+
+### Dependencies Updated
+- cakephp/cakephp updated from 5.3.1 to 5.3.3 patch
+- cakephp/cakephp-codesniffer installed in version 5.3.0 [#18](https://github.com/orca-services/cakephp-feature-flags/issues/18)
 
 ## [2.0.0](https://github.com/orca-services/cakephp-feature-flags/tags/2.0.0)
 ### Changed
 - cakephp/chronos updated from 2.4.5 to 3.3.1 major
 - cakephp/cakephp updated from 4.6.3 to 5.3.1 major
 - phpunit/phpunit updated from 8.5.50 to 10.5.63 major
-
-### Dependencies Updated
-- cakephp/cakephp updated from 4.3.11 to 4.6.3 minor
-- cakephp/cakephp-codesniffer installed in version 4.7.1 [#18](https://github.com/orca-services/cakephp-feature-flags/issues/18)
 
 ## [1.0.2](https://github.com/orca-services/cakephp-feature-flags/tags/1.0.2)
 
