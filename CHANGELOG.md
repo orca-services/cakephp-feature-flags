@@ -16,6 +16,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Add CakePHP CodeSniffer 5.x as dev dependency [#18](https://github.com/orca-services/cakephp-feature-flags/issues/18)
 
 ### Changed
+- Exclude repository-only files from archives to reduce Composer distribution package size [#34](https://github.com/orca-services/cakephp-feature-flags/issues/34)
 
 ### Deprecated
 
