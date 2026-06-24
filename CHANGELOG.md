@@ -28,7 +28,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Security
 
 ### Dependencies Updated
-- cakephp/cakephp updated from 4.3.11 to 4.6.3 minor
+- cakephp/cakephp updated from 4.3.11 to 4.6.4 minor
 - cakephp/cakephp-codesniffer installed in version 4.7.1 [#18](https://github.com/orca-services/cakephp-feature-flags/issues/18)
 
 ## [1.0.2](https://github.com/orca-services/cakephp-feature-flags/tags/1.0.2)
