@@ -14,7 +14,7 @@ class Feature
      * Fetch the feature by name
      *
      * @param string $featureName Name of the feature.
-     * @return FeatureState The feature state for the given feature name.
+     * @return \FeatureFlags\FeatureState The feature state for the given feature name.
      */
     public static function name(string $featureName): FeatureState
     {

@@ -12,7 +12,9 @@ namespace FeatureFlags;
  */
 class FeatureState
 {
-    /** @var bool The state of the feature */
+    /**
+     * @var bool The state of the feature
+     */
     protected $state = false;
 
     /**

@@ -1,4 +1,5 @@
 <?php
+declare(strict_types=1);
 
 namespace FeatureFlags;
 
@@ -10,5 +11,5 @@ class FeatureFlags
     /**
      * The config key to look for the feature flags
      */
-    const CONFIG_KEY = 'Features';
+    public const CONFIG_KEY = 'Features';
 }
