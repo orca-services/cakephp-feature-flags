@@ -1,4 +1,5 @@
 <?php
+declare(strict_types=1);
 
 namespace FeatureFlags;
 
@@ -16,7 +17,7 @@ class FeatureFlagsList
      * @todo Cover by a test
      * @todo Make configuration key configurable, e.g. through static method and/or config key (+ centralize).
      */
-    public static function asArray()
+    public static function asArray(): array
     {
         $featureFlags = Configure::read(FeatureFlags::CONFIG_KEY, []);
 

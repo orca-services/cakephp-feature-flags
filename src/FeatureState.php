@@ -12,15 +12,17 @@ namespace FeatureFlags;
  */
 class FeatureState
 {
-    /** @var bool The state of the feature */
-    protected $state = false;
+    /**
+     * @var bool The state of the feature
+     */
+    protected bool $state = false;
 
     /**
      * FeatureState constructor.
      *
      * @param bool $state The current state to set.
      */
-    public function __construct($state)
+    public function __construct(bool $state)
     {
         $this->state = $state;
     }
