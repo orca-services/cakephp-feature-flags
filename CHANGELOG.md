@@ -20,6 +20,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Security
 
 ### Dependencies Updated
+- cakephp/cakephp updated from 4.6.4 to 4.6.5 patch
+- phpunit/phpunit updated from 8.5.52 to 8.5.54 patch
 
 ## [1.1.0](https://github.com/orca-services/cakephp-feature-flags/releases/tag/1.1.0) - 2026-06-25
 
