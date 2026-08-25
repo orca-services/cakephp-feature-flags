@@ -20,12 +20,13 @@ class FeatureStateTest extends TestCase
      * @covers ::isEnabled
      * @covers ::__construct
      */
-    public function testIsEnabled()
+    public function testIsEnabled(): void
     {
         $featureState = new FeatureState(true);
-        $this->assertTrue($featureState->isEnabled());
+        static::assertTrue($featureState->isEnabled());
+
         $featureState = new FeatureState(false);
-        $this->assertFalse($featureState->isEnabled());
+        static::assertFalse($featureState->isEnabled());
     }
 
     /**
@@ -35,11 +36,12 @@ class FeatureStateTest extends TestCase
      * @covers ::isDisabled
      * @covers ::__construct
      */
-    public function testIsDisabled()
+    public function testIsDisabled(): void
     {
         $featureState = new FeatureState(false);
-        $this->assertTrue($featureState->isDisabled());
+        static::assertTrue($featureState->isDisabled());
+
         $featureState = new FeatureState(true);
-        $this->assertFalse($featureState->isDisabled());
+        static::assertFalse($featureState->isDisabled());
     }
 }

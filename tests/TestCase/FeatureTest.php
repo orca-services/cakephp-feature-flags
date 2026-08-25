@@ -6,7 +6,6 @@ namespace FeatureFlags\Test\TestCase;
 use Cake\Core\Configure;
 use Cake\TestSuite\TestCase;
 use FeatureFlags\Feature;
-use FeatureFlags\FeatureState;
 
 /**
  * Feature Tests
@@ -22,21 +21,20 @@ class FeatureTest extends TestCase
      * @covers ::name
      * @covers ::getFeatureState
      */
-    public function testName()
+    public function testName(): void
     {
         // Test unset feature flag
         $featureState = Feature::name('Foo');
-        $this->assertInstanceOf(FeatureState::class, $featureState);
-        $this->assertFalse($featureState->isEnabled());
+        static::assertFalse($featureState->isEnabled());
 
         // Test enabled feature flag
         Configure::write('Features.Foo', true);
         $featureState = Feature::name('Foo');
-        $this->assertTrue($featureState->isEnabled());
+        static::assertTrue($featureState->isEnabled());
 
         // Test enabled feature flag
         Configure::write('Features.Foo', false);
         $featureState = Feature::name('Foo');
-        $this->assertFalse($featureState->isEnabled());
+        static::assertFalse($featureState->isEnabled());
     }
 }
