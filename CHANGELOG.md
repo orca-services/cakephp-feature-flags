@@ -20,6 +20,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Security
 
 ### Dependencies Updated
+
+## [2.1.0](https://github.com/orca-services/cakephp-feature-flags/releases/tag/2.1.0) - 2026-08-25
+
+### Changed
+- Rename Plugin class with FeatureFlagsPlugin
+
+### Dependencies Updated
 - cakephp/cakephp updated from 5.3.3 to 5.4.1 minor
 - cakephp/cakephp-codesniffer updated from 5.3.0 to 5.3.1 patch
 - phpunit/phpunit updated from 10.5.63 to 10.5.64 patch
