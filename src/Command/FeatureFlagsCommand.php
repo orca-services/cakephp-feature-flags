@@ -4,7 +4,7 @@ declare(strict_types=1);
 namespace FeatureFlags\Command;
 
 use Cake\Console\Arguments;
-use Cake\Console\Command;
+use Cake\Command\Command;
 use Cake\Console\ConsoleIo;
 use Cake\Console\ConsoleOptionParser;
 use Cake\Utility\Hash;
@@ -56,5 +56,7 @@ class FeatureFlagsCommand extends Command
         }
 
         $io->helper('Table')->output($featureFlagTableData);
+
+        return static::CODE_SUCCESS;
     }
 }
